@@ -16,5 +16,5 @@ At the moment, babydebugger will only work with the files that end in `.js`
 
 
 **Credit**
---This gem was based on the <a href="https://github.com/danvisintainer/prybaby">Prybaby gem</a> made by <3 by                  <a href="https://github.com/danvisintainer">Dan Visintainer</a>
+--This gem was based on the <a href="https://github.com/danvisintainer/prybaby">Prybaby gem</a> made by <3 by                  [Dan Visintainer](http://www.danvisintainer.com/)
 
