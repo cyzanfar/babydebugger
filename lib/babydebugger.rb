@@ -15,7 +15,7 @@ class Babydebugger
   end
 
   def self.print_usage
-    puts "USAGE: prybaby [option]"
+    puts "USAGE: babydebugger [option]"
   end
 
   def self.print_help
