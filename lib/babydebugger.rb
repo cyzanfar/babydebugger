@@ -86,7 +86,7 @@ class Babydebugger
         self.lines_modified += 1
         file_changed = true
 
-        temp_file << "#{' ' * l.index('debugger')}\# #{l.strip}\n"
+        temp_file << "#{' ' * l.index('debugger')}\// #{l.strip}\n"
       else
         temp_file << l
       end
