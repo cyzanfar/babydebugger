@@ -2,5 +2,5 @@
 
 require 'fileutils'
 require 'tempfile'
-require 'prybaby'
+require 'babydebugger'
 puts Babydebugger.go(ARGV[0])

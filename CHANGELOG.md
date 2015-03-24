@@ -1,4 +1,4 @@
-# Prybaby Changelog
+# Babydebugger Changelog
 
 ## v0.0.2.2 3/3/2015
 - Fix runtime error from previous update
