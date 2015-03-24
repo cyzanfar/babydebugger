@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'babydebugger'
-  s.version     = '0.1.0'
+  s.version     = '0.0.0'
   s.date        = '2015-03-24'
   s.summary     = "babydebugger"
   s.description = "A simple gem that quickly removes debugger breakpoints from code"

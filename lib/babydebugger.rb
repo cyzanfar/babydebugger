@@ -80,13 +80,13 @@ class Babydebugger
     temp_file = Tempfile.new('tempfile')
 
     open(file, 'r').each do |l|
-      if l.strip[0] == '#'
+      if l.strip[0] == '//'
         temp_file << l
       elsif l.include?('debugger')
         self.lines_modified += 1
         file_changed = true
 
-        temp_file << "#{' ' * l.index('debugger')}\# #{l.strip}\n"
+        temp_file << "#{' ' * l.index('debugger')}\// #{l.strip}\n"
       else
         temp_file << l
       end
@@ -105,8 +105,8 @@ class Babydebugger
     temp_file = Tempfile.new('tempfile')
 
     open(file, 'r').each do |l|
-      if l.include?('debugger') && l.include?('#')
-        spaces = l.index('#')
+      if l.include?('debugger') && l.include?('//')
+        spaces = l.index('//')
         temp_file << "#{' ' * spaces}#{l[spaces + 2..l.length]}"
         self.lines_modified += 1
         file_changed = true
