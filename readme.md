@@ -1,8 +1,7 @@
 # Babydebugger
 
-This gem will comment-out/uncomment each line in your current working directory, including any subdirectories that contains the Javascript line  `debugger`. This gem will simply place a `//` infront of debugger to comment it out. You can also undo the previously commented d`debugger` by running `babydebugger -u` in your command prompt.
+This gem will comment-out/uncomment each line in your current working directory, including any subdirectories that contains the Javascript line  `debugger`. This gem will simply place a `//` infront of debugger to comment it out. You can also undo the previously commented `debugger` by running `babydebugger -u` in your command prompt.
 
-This gem will comment-out/uncomment each line in your current working directory, including any subdirectories that contains the Javascript line  `debugger`. This gem will simply place a `//` infront of debugger to comment it out. You can also undo the previously commented d`debugger` by running `babydebugger -u` in your command prompt.
 
 If you invoke `babydebugger -r`, **it will remove the entire line containing a `debugger` breakpoint**!
 You can invoke `-h` for a quick rundown of the options.
@@ -22,7 +21,7 @@ At the moment, babydebugger will only work with the files that end in `.js`
 
 **Credit**
 
---This gem was based on the <a href="https://github.com/danvisintainer/prybaby">Prybaby gem</a> made by <3 by                  [Dan Visintainer](http://www.danvisintainer.com/)
+--This gem was based on the <a href="https://github.com/danvisintainer/prybaby">Prybaby gem</a> made with <3 by                  [Dan Visintainer](http://www.danvisintainer.com/)
 
 ##Contribute
 
