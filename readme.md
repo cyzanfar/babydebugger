@@ -1,27 +1,35 @@
 # Babydebugger
 
-This gem will comment-out/uncomment each line in your current working directory, including any subdirectories that contains the Javascript line  `debugger`. This gem will simply place a `//` infront of debugger to comment it out. You can also undo the previously commented `debugger` by running `babydebugger -u` in your command prompt.
+Comment out, uncomment or delete `debugger` breakpoints from Javascript files ending with `.js`.
 
+This program will execute on `.js` files in your current directory including any subdirectories.
 
-If you invoke `babydebugger -r`, **it will remove the entire line containing a `debugger` breakpoint**!
-You can invoke `-h` for a quick rundown of the options.
 
 ## Installation
 
- `gem install babydebugger`
+`gem install babydebugger`
 
-At the moment, babydebugger will only work with the files that end in `.js`
+At the moment, babydebugger only execute files ending in `.js`
+
+## Usage
+By default, running `babydebugger` will comment out debugger breakpoints.
+
+For a quick rundown of the available options run `babydebugger -h`.
+
+Invoke `-r` remove breakpoints in files.
+
+`-u`  uncomment lines with debugger breakpoints.
 
 
 
 ## Todo
 
--search for any file type and comment out debugger where ever it is.
+-support `.coffeescript` extension.
 
 
-**Credit**
+## Credit
 
---This gem was based on the <a href="https://github.com/danvisintainer/prybaby">Prybaby gem</a> made with <3 by                  [Dan Visintainer](http://www.danvisintainer.com/)
+--This gem was based on the <a href="https://github.com/danvisintainer/prybaby">Prybaby gem</a> made with ♥ by [Dan Visintainer](http://www.danvisintainer.com/)
 
 ##Contribute
 
