@@ -1,6 +1,6 @@
 # Babydebugger
 
-Comment out, uncomment or delete `debugger` breakpoints from Javascript files ending with `.js`.
+Comment out, uncomment or delete `debugger` breakpoints from JavaScript files ending with `.js`.
 
 This program will execute on `.js` files in your current directory including any subdirectories.
 
@@ -24,7 +24,7 @@ Invoke `-r` remove breakpoints in files.
 
 ## Todo
 
--support `.coffeescript` extension.
+-Support `.coffeescript` extension.
 
 
 ## Credit
