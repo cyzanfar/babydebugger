@@ -1,4 +1,5 @@
 <a href="https://codeclimate.com/github/cyzanfar/babydebugger"><img src="https://codeclimate.com/github/cyzanfar/babydebugger/badges/gpa.svg" /></a>
+[![Gem Version](https://badge.fury.io/rb/babydebugger.svg)](http://badge.fury.io/rb/babydebugger)
 
 # Babydebugger
 
