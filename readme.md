@@ -1,3 +1,5 @@
+<a href="https://codeclimate.com/github/cyzanfar/babydebugger"><img src="https://codeclimate.com/github/cyzanfar/babydebugger/badges/gpa.svg" /></a>
+
 # Babydebugger
 
 Comment out, uncomment or delete `debugger` breakpoints from JavaScript files ending with `.js`.
