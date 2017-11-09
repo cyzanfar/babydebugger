@@ -29,11 +29,6 @@ Invoke `-r` remove breakpoints in files.
 
 -Support `.coffeescript` extension.
 
-
-## Credit
-
---This gem was based on the <a href="https://github.com/danvisintainer/prybaby">Prybaby gem</a> made with ♥ by [Dan Visintainer](http://www.danvisintainer.com/)
-
 ##Contribute
 
 Fork this repository, clone your fork, create a new branch and start contributing!
